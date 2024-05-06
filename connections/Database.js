@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://0.0.0.0:27017'; 
+const url = 'mongodb+srv://arul-db-user:Password123456@cluster0.qipjc4f.mongodb.net/'; 
 const dbName = 'CRM';
 
 const connectToDatabase = async () => {
